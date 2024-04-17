@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.azul{
+    color: blue;
+}
+
+.semana{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.mr-1{
+    margin-right: 10px;
+}
