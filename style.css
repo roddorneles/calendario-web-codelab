@@ -1,36 +1,54 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
+
 }
 
-.azul{
+.azul {
     color: blue;
 }
 
-.semana{
+.semana {
     display: flex;
     flex-direction: column;
     align-items: start;
 }
 
-.flex-row{
+.flex-row {
     display: flex;
     flex-direction: row;
 }
 
-.flex-column{
+.flex-column {
     display: flex;
     flex-direction: column;
 }
 
-.mr-1{
+.mr-1 {
     margin-right: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+hr {
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    unicode-bidi: isolate;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    border-bottom: blue;
 }
