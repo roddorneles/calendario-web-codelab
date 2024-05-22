@@ -1,7 +1,7 @@
 
 const semanas = document.querySelectorAll('.semana');
 
-for (let i = 3; i < semanas.length; i++) {
+for (let i = 5; i < semanas.length; i++) {
 
     const links = semanas[i].querySelectorAll('a');
 
